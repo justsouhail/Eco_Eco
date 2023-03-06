@@ -1,0 +1,252 @@
+
+form{
+
+  background-color: white;
+  padding: 3.125em;
+  border-radius: 10px;
+  
+  
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75) ;
+  
+  display: flex;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  
+}
+
+.photo{
+  display: block;
+  width :100%;
+ height:100%;
+ 
+ 
+
+}
+
+.body 
+{   
+  
+  display: flex;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+   
+}
+
+
+
+.form--input {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2.6em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+
+
+  
+}
+
+.form--submit {
+  margin-top: 6%;
+  width: 50%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: 1px dashed #639;
+  cursor: pointer;
+}
+
+.form--submit:hover {
+  color: #639;
+  background-color: white;
+  border: 1px dashed #639;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+form:focus {
+  border: 1px solid #639;
+  outline: none;
+}
+
+.foot{
+  color: aliceblue;
+  text-align: center;
+  font-size: x-large;
+}
+
+
+body {
+  
+  
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.sign-in{
+  
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size:xx-large;
+  margin-bottom: 1.5em;
+  
+  
+}
+main     {
+  
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  overflow: hidden;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ 
+}
+
+.sign-up_form{
+
+    background-color: white;
+    padding: 3.125em;
+    border-radius: 10px;
+    
+    
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75) ;
+    
+    display: flex;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    
+  }
+  
+  
+  
+  .sign-up_body 
+  {   
+    
+    display: flex;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+     
+  }
+  
+  .sign-up_main     {
+    
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+  }
+  
+  
+  
+  .sign-up_sign-in{
+  
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size:xx-large;
+    margin-bottom: 1.5em;
+    
+    
+  }
+  
+  .sign-up_form--input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2.6em;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    
+    
+  }
+  
+  .sign-up_form--submit {
+    margin-top: 6%;
+    width: 50%;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: 1px dashed #639;
+    cursor: pointer;}
+    
+    
+    .sign-up_form--submit:hover {
+      color: #639;
+      background-color: white;
+      border: 1px dashed #639;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+  
+  
+  .sign-up_form:focus {
+    border: 1px solid #639;
+    outline: none;
+  }
+  
+  
+  
+  
+  body {
+    
+    
+    background-color: #232222;
+    /* background-image: url("../images/img2.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  .sign-up_photo{
+    display: block;
+    width :100%;
+   height:100%;
+   
+   
+  
+  }
+  
+  .sign-up_foot{
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+  }

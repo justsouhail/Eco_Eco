@@ -1,0 +1,17 @@
+.card {
+    padding: 10px;
+    margin: 10px;
+    height: 33em;
+     width: 20em;
+     background-color: rgb(216, 213, 213);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  }
+   
+.card-body{
+    margin-top: 3%;
+}
+.card-container {
+    display: grid;
+    grid-gap: 10px;
+}

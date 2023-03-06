@@ -1,0 +1,75 @@
+.login_formulaire{
+
+  margin-right: 33%;
+  margin-left: 33%;
+  margin-top: 7%;
+  
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75) ;
+
+  
+  display: flex;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  background-color: rgb(236, 229, 229);
+
+
+}
+
+.body{
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.login_form--input {
+  width: 62%;
+  height: 1%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  
+  
+  
+}
+
+.login_form--submit {
+  margin-top: 9%;
+  width: 60%;
+  height: 10%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: 1px dashed #639;
+  cursor: pointer;
+  font-size: large;
+
+}
+  
+  
+  .login_form--submit:hover {
+    color: #639;
+    background-color: white;
+    border: 1px dashed #639;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  
+
+ h4 :hover{
+color: red;
+ }
+
+.sign :hover{
+color: red;
+}
